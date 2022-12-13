@@ -2,14 +2,14 @@
 /**
  * Theme functions and definitions.
  *
- * @package Codeska
+ * @package Mogul
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  */
 
 /**
  * Text domain definition
  */
-defined( 'THEME_TD' ) ? THEME_TD : define( 'THEME_TD', 'wp_dev' );
+defined( 'THEME_TD' ) ? THEME_TD : define( 'THEME_TD', 'mogul' );
 
 // Load modules
 $theme_includes = [
@@ -33,7 +33,7 @@ $theme_includes = [
 foreach ( $theme_includes as $file ) {
 	if ( ! locate_template( $file ) ) {
 		/* translators: %s error*/
-		trigger_error( esc_html( sprintf( esc_html( __('Error locating %s for inclusion', 'wp_dev') ), $file ) ), E_USER_ERROR ); // phpcs:ignore
+		trigger_error( esc_html( sprintf( esc_html( __('Error locating %s for inclusion', 'mogul') ), $file ) ), E_USER_ERROR ); // phpcs:ignore
 		continue;
 	}
 	require_once locate_template( $file );

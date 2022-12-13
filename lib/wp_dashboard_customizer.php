@@ -2,7 +2,7 @@
 /**
  * Custom styles, scripts, screens for WP dashboard
  *
- * @package Codeska
+ * @package Mogul
  */
 
 if ( ! class_exists( 'WP_Dashboard_Customizer' ) ) :

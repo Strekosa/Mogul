@@ -5,7 +5,7 @@
  * Contains the closing of the #content div and all content after.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- * @package Codeska
+ * @package Mogul
  */
 
 ?>
@@ -20,7 +20,7 @@
 				[
 					'theme_location' => 'footer_menu',
 					'menu_id'        => 'footer-menu',
-					'walker'         => new codeska_navwalker(),
+					'walker'         => new mogul_navwalker(),
 				]
 			);
 		endif;

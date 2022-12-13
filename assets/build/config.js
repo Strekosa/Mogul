@@ -42,19 +42,19 @@ if (process.env.NODE_ENV === undefined) {
 
 /**
  * If your publicPath differs between environments, but you know it at compile time,
- * then set CODESKA_DIST_PATH as an environment variable before compiling.
+ * then set MOGUL_DIST_PATH as an environment variable before compiling.
  * Example:
- *   CODESKA_DIST_PATH=/wp-content/themes/codeska-starter/dist yarn build:production
+ *   MOGUL_DIST_PATH=/wp-content/themes/mogul-starter/dist yarn build:production
  */
-if (process.env.CODESKA_DIST_PATH) {
-  module.exports.publicPath = process.env.CODESKA_DIST_PATH;
+if (process.env.MOGUL_DIST_PATH) {
+  module.exports.publicPath = process.env.MOGUL_DIST_PATH;
 }
 
 /**
  * If you don't know your publicPath at compile time, then uncomment the lines
- * below and use WordPress's wp_localize_script() to set CODESKA_DIST_PATH global.
+ * below and use WordPress's wp_localize_script() to set MOGUL_DIST_PATH global.
  * Example:
- *   wp_localize_script('codeska/main.js', 'CODESKA_DIST_PATH', get_theme_file_uri('dist/'))
+ *   wp_localize_script('mogul/main.js', 'MOGUL_DIST_PATH', get_theme_file_uri('dist/'))
  */
 // Object.keys(module.exports.entry).forEach(id =>
 //   module.exports.entry[id].unshift(path.join(__dirname, 'helpers/public-path.js')));

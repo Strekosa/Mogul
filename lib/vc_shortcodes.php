@@ -3,7 +3,7 @@
  * Register Visual Composer shortcodes
  *
  * @link https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress
- * @package Codeska
+ * @package Mogul
  */
 
 // Check if Visual Composer is installed

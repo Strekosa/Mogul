@@ -1,5 +1,5 @@
 {
-  "name": "codeska/starter",
+  "name": "mogul/starter",
   "type": "wordpress-theme",
   "license": "MIT",
   "require-dev": {

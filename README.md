@@ -1,4 +1,4 @@
-# Codeska Development Theme
+# mogul Development Theme
 
 This is a WordPress starter-theme which is based on [Underscores](http://underscores.me/); it includes two most popular Front-End frameworks: [Bootstrap](http://getbootstrap.com/) and [ZURB Foundation](http://foundation.zurb.com/). The purpose of this theme is to act as a small and handy toolbox that contains the essentials needed to build any design. It's meant to be a starting point, not the final product.
 
@@ -15,8 +15,8 @@ PHP7.0+
 
 ```bash
 $ cd my-wordpress-folder/wp-content/themes/
-$ git clone https://gitlab.codeska.se/dmitriy.olhovsky/codeska-starter.git
-$ rename codeska-theme folder (better with underscores or together like in 'twentyseventeen')
+$ git clone https://gitlab.mogul.se/dmitriy.olhovsky/mogul-starter.git
+$ rename mogul-theme folder (better with underscores or together like in 'twentyseventeen')
 $ cd your_theme_name
 ```
 
@@ -30,7 +30,7 @@ To enable one of the pre-installed frameworks, go to the theme folder, then open
 
 ```bash
 $ in the beginning of functions.php find Text domain definition and replace 'wp_dev' with the text domain according to your theme name
-$ find & replace 'codeska_' and 'codeska' in the whole theme with your theme name
+$ find & replace 'mogul_' and 'mogul' in the whole theme with your theme name
 $ check the top comment section in /style.css for the correct information about the theme
 $ add screenshot.png of your future theme appearance (1200px wide by 900px)
 ```
@@ -102,7 +102,7 @@ Open `assets/config.json` and add the new files to entry in a new array.
 ### 1. Folder structure
 
 ```
-codeska-theme/
+mogul-theme/
 ├───assets
 │   ├───build
 │   │   ├───helpers
@@ -282,7 +282,7 @@ For PhpStorm you can use [this guide](https://confluence.jetbrains.com/display/P
 For VS Code you can use `package PHP CS Fixer for Visual Studio Code`
 and add [settings](https://i.imgur.com/z1b66q8.png)
 
-You can also run code sniffer and fixer from the command line directly. Visit [github repository](https://github.com/squizlabs/PHP_CodeSniffer) for more details. 
+You can also run code sniffer and fixer from the command line directly. Visit [github repository](https://github.com/squizlabs/PHP_CodeSniffer) for more details.
 
 Don't forget to use `.editorconfig` for the particular project.
 
@@ -355,7 +355,7 @@ More functional details can be found in the `WP_Dashboard_Customizer` class.
 
 ![Field Groups](https://image.prntscr.com/image/JbdxqeLbTa2A9RKAjfAYPg.png)
 
-Use taxonomy terms for field group organization instead of prefixes. Here is the list of pre-installed terms: **Template, Option, Post Type, Flexible Content, Block, Taxonomy, User, Menu Item**. 
+Use taxonomy terms for field group organization instead of prefixes. Here is the list of pre-installed terms: **Template, Option, Post Type, Flexible Content, Block, Taxonomy, User, Menu Item**.
 
 ![Terms Metabox](https://image.prntscr.com/image/WTwDjTT2R2qlvtoRCfGUUg.png)
 

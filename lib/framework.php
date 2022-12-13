@@ -1,8 +1,8 @@
 <?php
 /**
- * Various functions required for codeska-bootstrap to work properly
+ * Various functions required for mogul-bootstrap to work properly
  *
- * @package Codeska
+ * @package Mogul
  */
 
 /*
@@ -18,13 +18,13 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 1140;
 }
 /**
- * codeska_navwalker class
+ * mogul_navwalker class
  * Menu navigation walker
- * Class Name: codeska_navwalker
- * GitHub URI: https://github.com/twittem/wp-codeska-navwalker
- * Description: A custom WordPress nav walker class to implement the codeska 3 navigation style in a custom theme using the WordPress built in menu manager.
+ * Class Name: mogul_navwalker
+ * GitHub URI: https://github.com/twittem/wp-mogul-navwalker
+ * Description: A custom WordPress nav walker class to implement the mogul 3 navigation style in a custom theme using the WordPress built in menu manager.
  */
-class Codeska_Navwalker extends Walker_Nav_Menu {
+class Mogul_Navwalker extends Walker_Nav_Menu {
 	/**
 	 * Walker::start_lvl()
 	 *
@@ -201,13 +201,13 @@ class Codeska_Navwalker extends Walker_Nav_Menu {
 
 /**
  * Pagination
- * Custom pagination with codeska .pagination class
- * source: http://www.ordinarycoder.com/paginate_links-class-ul-li-codeska/
+ * Custom pagination with mogul .pagination class
+ * source: http://www.ordinarycoder.com/paginate_links-class-ul-li-mogul/
  *
  * @param boolean $echo echo
  * @return string
  */
-function codeska_pagination( $echo = true ) {
+function Mogul_pagination( $echo = true ) {
 	global $wp_query;
 	$big   = 999999999; // need an unlikely integer
 	$pages = paginate_links(
@@ -239,13 +239,13 @@ function codeska_pagination( $echo = true ) {
 }
 /**
  * 4 - Comments tree
- * codeska Comments Tree
+ * Mogul Comments Tree
  */
-if ( ! class_exists( 'Codeska_Comments' ) ) :
+if ( ! class_exists( 'Mogul_Comments' ) ) :
 	/**
 	 * Undocumented class
 	 */
-	class Codeska_Comments extends Walker_Comment {
+	class Mogul_Comments extends Walker_Comment {
 		/**
 		 * tree_type
 		 *

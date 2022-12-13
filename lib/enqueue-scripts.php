@@ -5,16 +5,16 @@
  * Learn more about enqueue_script: {@link https://codex.wordpress.org/Function_Reference/wp_enqueue_script}
  * Learn more about enqueue_style: {@link https://codex.wordpress.org/Function_Reference/wp_enqueue_style}
  *
- * @package Codeska
+ * @package Mogul
  */
 
-if ( ! function_exists( 'codeska_scripts' ) ) :
+if ( ! function_exists( 'Mogul_scripts' ) ) :
 	/**
-	 * codeska_scripts
+	 * Mogul_scripts
 	 *
 	 * @return void
 	 */
-	function codeska_scripts() {
+	function Mogul_scripts() {
 		// Enqueue the main Stylesheet.
 		wp_enqueue_style( 'main-stylesheet', asset_path( 'styles/main.css' ), false, '1.0.0', 'all' );
 
@@ -40,5 +40,5 @@ if ( ! function_exists( 'codeska_scripts' ) ) :
 		endif;
 	}
 
-	add_action( 'wp_enqueue_scripts', 'codeska_scripts' );
+	add_action( 'wp_enqueue_scripts', 'Mogul_scripts' );
 endif;

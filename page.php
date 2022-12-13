@@ -2,7 +2,7 @@
 /**
  * Page template file
  *
- * @package Codeska
+ * @package Mogul
  */
 
 get_header(); ?>

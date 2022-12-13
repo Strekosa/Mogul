@@ -7,7 +7,7 @@
  * Keywords: hero acf block
  * Supports: { "align":false, "anchor":true }
  *
- * @package Codeska
+ * @package Mogul
  *
  * @var array $block
  */

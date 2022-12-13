@@ -3,7 +3,7 @@
  * Jetpack Compatibility File.
  *
  * @link https://jetpack.com/
- * @package Codeska
+ * @package Mogul
  */
 
 /**
@@ -12,13 +12,13 @@
  * @link {https://jetpack.com/support/infinite-scroll}
  * @link {https://jetpack.com/support/responsive-videos}
  */
-function codeska_jetpack_setup() {
+function mogul_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support(
 		'infinite-scroll',
 		array(
 			'container' => 'main',
-			'render'    => 'codeska_infinite_scroll_render',
+			'render'    => 'mogul_infinite_scroll_render',
 			'footer'    => 'page',
 		)
 	);
@@ -26,12 +26,12 @@ function codeska_jetpack_setup() {
 	// Add theme support for Responsive Videos.
 	add_theme_support( 'jetpack-responsive-videos' );
 }
-add_action( 'after_setup_theme', 'codeska_jetpack_setup' );
+add_action( 'after_setup_theme', 'mogul_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function codeska_infinite_scroll_render() {
+function mogul_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :

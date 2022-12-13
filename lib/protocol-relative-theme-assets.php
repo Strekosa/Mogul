@@ -2,15 +2,15 @@
 /**
  * Protocol Relative Theme Assets
  *
- * @package Codeska
+ * @package Mogul
  */
 
-if ( ! class_exists( 'Codeska_Protocol_Relative_Theme_Assets' ) ) :
+if ( ! class_exists( 'Mogul_Protocol_Relative_Theme_Assets' ) ) :
 
 	/**
-	 * Codeska_Protocol_Relative_Theme_Assets class
+	 * Mogul_Protocol_Relative_Theme_Assets class
 	 */
-	class Codeska_Protocol_Relative_Theme_Assets {
+	class Mogul_Protocol_Relative_Theme_Assets {
 		/**
 		 * Plugin URI: https://github.com/ryanjbonnell/Protocol-Relative-Theme-Assets
 		 * Description: Transforms enqueued CSS and JavaScript theme URLs to use protocol-relative paths.
@@ -100,5 +100,5 @@ if ( ! class_exists( 'Codeska_Protocol_Relative_Theme_Assets' ) ) :
 		}
 	}
 
-	$codeska_protocol_relative_theme_assets = new Codeska_Protocol_Relative_Theme_Assets();
+	$mogul_protocol_relative_theme_assets = new Mogul_Protocol_Relative_Theme_Assets();
 endif;

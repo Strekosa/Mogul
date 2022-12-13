@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Codeska-PHPCS">
-	<description>Codeska PHPCS.</description>
+<ruleset name="Mogul-PHPCS">
+	<description>Mogul PHPCS.</description>
 
 	<rule ref="10up-Default" />
 
