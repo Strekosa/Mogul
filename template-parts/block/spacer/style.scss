@@ -1,0 +1,7 @@
+.spacer {
+  height: var(--space-desktop);
+
+  @media (max-width: 768px) {
+    height: var(--space-mobile);
+  }
+}

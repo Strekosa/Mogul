@@ -1,0 +1,18 @@
+.text {
+  &__main {
+    text-align: center;
+    width: 100%;
+
+    &.large {
+      max-width: 834px;
+    }
+
+    &.small {
+      max-width: 325px;
+    }
+  }
+
+  &__title {
+    @include adaptiv-margin-bottom(60, 30);
+  }
+}

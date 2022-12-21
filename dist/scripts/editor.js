@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b729647741cce4f28ce2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "52b43a9282e28ac8091b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(43)(__webpack_require__.s = 43);
+/******/ 	return hotCreateRequire(57)(__webpack_require__.s = 57);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2905,7 +2905,21 @@ exports.push([module.i, "/* line 2, stdin */\n\n.block-editor .editor-post-title
 /* 40 */,
 /* 41 */,
 /* 42 */,
-/* 43 */
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */
 /*!*************************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./styles/wp-dashboard/editor.scss ***!
   \*************************************************************************************/
@@ -2914,11 +2928,11 @@ exports.push([module.i, "/* line 2, stdin */\n\n.block-editor .editor-post-title
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\OpenServer\domains\Mogul\wp-content\themes\mogul\assets\build\util/../helpers/hmr-client.js */1);
-module.exports = __webpack_require__(/*! ./styles/wp-dashboard/editor.scss */44);
+module.exports = __webpack_require__(/*! ./styles/wp-dashboard/editor.scss */58);
 
 
 /***/ }),
-/* 44 */
+/* 58 */
 /*!*****************************************!*\
   !*** ./styles/wp-dashboard/editor.scss ***!
   \*****************************************/

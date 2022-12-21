@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b729647741cce4f28ce2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "52b43a9282e28ac8091b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(45)(__webpack_require__.s = 45);
+/******/ 	return hotCreateRequire(59)(__webpack_require__.s = 59);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2328,7 +2328,21 @@ module.exports = jQuery;
 /* 42 */,
 /* 43 */,
 /* 44 */,
-/* 45 */
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */
 /*!****************************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./scripts/wp-dashboard/customizer.js ***!
   \****************************************************************************************/
@@ -2337,11 +2351,11 @@ module.exports = jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\OpenServer\domains\Mogul\wp-content\themes\mogul\assets\build\util/../helpers/hmr-client.js */1);
-module.exports = __webpack_require__(/*! ./scripts/wp-dashboard/customizer.js */46);
+module.exports = __webpack_require__(/*! ./scripts/wp-dashboard/customizer.js */60);
 
 
 /***/ }),
-/* 46 */
+/* 60 */
 /*!********************************************!*\
   !*** ./scripts/wp-dashboard/customizer.js ***!
   \********************************************/

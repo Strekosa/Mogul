@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b729647741cce4f28ce2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "52b43a9282e28ac8091b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(38)(__webpack_require__.s = 38);
+/******/ 	return hotCreateRequire(52)(__webpack_require__.s = 52);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2910,7 +2910,21 @@ exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":
 /* 35 */,
 /* 36 */,
 /* 37 */,
-/* 38 */
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */
 /*!********************************************************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./scripts/wp-dashboard/admin.js ./styles/wp-dashboard/admin.scss ***!
   \********************************************************************************************************************/
@@ -2919,12 +2933,12 @@ exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\OpenServer\domains\Mogul\wp-content\themes\mogul\assets\build\util/../helpers/hmr-client.js */1);
-__webpack_require__(/*! ./scripts/wp-dashboard/admin.js */39);
-module.exports = __webpack_require__(/*! ./styles/wp-dashboard/admin.scss */40);
+__webpack_require__(/*! ./scripts/wp-dashboard/admin.js */53);
+module.exports = __webpack_require__(/*! ./styles/wp-dashboard/admin.scss */54);
 
 
 /***/ }),
-/* 39 */
+/* 53 */
 /*!***************************************!*\
   !*** ./scripts/wp-dashboard/admin.js ***!
   \***************************************/
@@ -2932,11 +2946,16 @@ module.exports = __webpack_require__(/*! ./styles/wp-dashboard/admin.scss */40);
 /*! all exports used */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(jQuery) {jQuery(document).ready(function () {});
+/* WEBPACK VAR INJECTION */(function(jQuery) {jQuery(document).ready(function () {
+  // $('.nav-tgl').click(function (event) {
+  // 	$('.nav-tgl,.header-menu').toggleClass('active');
+  // 	$('body').toggleClass('lock');
+  // });
+});
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! jquery */ 19)))
 
 /***/ }),
-/* 40 */
+/* 54 */
 /*!****************************************!*\
   !*** ./styles/wp-dashboard/admin.scss ***!
   \****************************************/

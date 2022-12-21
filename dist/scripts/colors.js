@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b729647741cce4f28ce2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "52b43a9282e28ac8091b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(41)(__webpack_require__.s = 41);
+/******/ 	return hotCreateRequire(55)(__webpack_require__.s = 55);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2903,7 +2903,21 @@ exports.push([module.i, "/*\r\nUse [$menu-submenu-background, $base-color, $high
 /* 38 */,
 /* 39 */,
 /* 40 */,
-/* 41 */
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */
 /*!*************************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./styles/wp-dashboard/colors.scss ***!
   \*************************************************************************************/
@@ -2912,11 +2926,11 @@ exports.push([module.i, "/*\r\nUse [$menu-submenu-background, $base-color, $high
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\OpenServer\domains\Mogul\wp-content\themes\mogul\assets\build\util/../helpers/hmr-client.js */1);
-module.exports = __webpack_require__(/*! ./styles/wp-dashboard/colors.scss */42);
+module.exports = __webpack_require__(/*! ./styles/wp-dashboard/colors.scss */56);
 
 
 /***/ }),
-/* 42 */
+/* 56 */
 /*!*****************************************!*\
   !*** ./styles/wp-dashboard/colors.scss ***!
   \*****************************************/

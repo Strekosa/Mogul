@@ -1,0 +1,155 @@
+.reviews {
+  &__main {
+    display: block;
+  }
+
+  &__title {
+    @include adaptiv-margin-bottom(120, 80);
+  }
+
+  &__item {
+    padding: 20px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    border-top: 1px solid #d4d8d8;
+    border-bottom: 1px solid #d4d8d8;
+
+    @include adaptiv-font(18, 13);
+    @include adaptiv-line-height(25, 20);
+  }
+
+  .slick-slider {
+    //padding: 0 74px;
+  }
+
+  .slick-list {
+    @include adaptiv-margin-right(-93, -15);
+    @include adaptiv-margin-left(-93, -15);
+  }
+
+  .slick-slide {
+    @include adaptiv-margin-right(93, 15);
+    @include adaptiv-margin-left(93, 15);
+  }
+
+  .slick-arrow {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: black;
+    transition: all 0.2s linear;
+    z-index: 10;
+
+    &::before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border-top: 4px solid white;
+      border-left: 4px solid white;
+      display: block;
+      opacity: 0.75;
+    }
+  }
+
+  .slick-prev {
+    left: -74px;
+
+    &::before {
+      transform: rotate(-45deg);
+      margin-left: 25px;
+    }
+  }
+
+  .slick-next {
+    right: -74px;
+
+    &::before {
+      transform: rotate(136deg);
+      margin-left: 20px;
+    }
+  }
+
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    background: black;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .reviews {
+    .slick-list {
+      margin-right: -93px;
+      margin-left: -93px;
+    }
+
+    .slick-slide {
+      margin-right: 93px;
+      margin-left: 93px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .reviews {
+    .slick-slider {
+      padding: 0 74px;
+    }
+
+    .slick-list {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    .slick-slide {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+
+    .slick-prev {
+      left: 0;
+    }
+
+    .slick-next {
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    .slick-slider {
+      padding: 0 35px;
+    }
+
+    .slick-arrow {
+      width: 35px;
+      height: 35px;
+
+      &::before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        border-top: 3px solid white;
+        border-left: 3px solid white;
+      }
+    }
+
+    .slick-prev {
+      &::before {
+        margin-left: 14px;
+      }
+    }
+
+    .slick-next {
+      &::before {
+        margin-left: 8px;
+      }
+    }
+  }
+}

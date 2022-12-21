@@ -3,8 +3,21 @@
 /** Import everything from autoload */
 @import "./autoload/**/*";
 @import "common/global";
+@import "common/grid";
+@import "common/mixins";
+@import "common/typography";
+@import "common/normalize";
 @import "layouts/header";
 @import "layouts/footer";
+
+/** Import everything from section */
+
+@import "template-parts/block/spacer/style";
+@import "template-parts/block/image-block/style";
+@import "template-parts/block/reviews/style";
+@import "template-parts/block/form/style";
+@import "template-parts/block/top-banner/style";
+@import "template-parts/block/text/style";
 
 /**
  * Import npm dependencies
@@ -13,3 +26,7 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
+
+// Import Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
