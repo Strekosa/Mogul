@@ -43,7 +43,8 @@
       color: #9da3ad;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       cursor: pointer;
     }
   }
@@ -70,7 +71,8 @@
     box-shadow: 0 0 0 3px black;
     transition: 0.3s ease;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $main-color;
       color: black;
     }

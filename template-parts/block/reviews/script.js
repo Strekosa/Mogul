@@ -10,12 +10,12 @@ jQuery(document).ready(() => {
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 1250,
+				breakpoint: 768,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
-				}
+				},
 			},
-		]
+		],
 	});
 });

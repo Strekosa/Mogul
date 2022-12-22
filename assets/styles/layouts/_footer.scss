@@ -54,6 +54,11 @@
       &:not(:last-child) {
         margin-right: 20px;
       }
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
     }
 
     &-img {
@@ -87,7 +92,8 @@
         margin-right: 16px;
       }
 
-      &:hover {
+      &:hover,
+      &:focus {
         img {
           transform: scale(1.1);
         }

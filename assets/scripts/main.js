@@ -5,6 +5,9 @@ import "jquery"
 // Import everything from autoload
 import "./autoload/**/*"
 
+// Import Slick
+import 'slick-carousel';
+
 jQuery(document).ready(() => {
 	$('.nav-tgl').click(function () {
 		$('.nav-tgl,.header-menu').toggleClass('active');
@@ -32,6 +35,5 @@ jQuery(document).ready(() => {
 	});
 });
 
+$(".menu-item").attr("tabindex",0);
 
-// Import Slick
-import 'slick-carousel';

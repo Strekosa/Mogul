@@ -43,13 +43,9 @@
       }
     }
 
-    &:hover {
-      a::after {
-        background-color: $text-color;
-      }
-    }
-
-    &:active {
+    &:hover,
+    &:focus,
+    &.active {
       a::after {
         background-color: $text-color;
       }
