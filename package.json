@@ -131,6 +131,7 @@
     "jquery": "^3.3.1",
     "motion-ui": "~2.0.3",
     "popper.js": "^1.15.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.8.4"
   }
 }

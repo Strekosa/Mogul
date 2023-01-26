@@ -12,13 +12,18 @@
  * @var array $block
  */
 
-$height = get_sub_field('height');
+$slug = str_replace('acf/', '', $block['name']);
+$block_id = $slug . '-' . $block['id'];
+$align_class = $block['align'] ? 'align' . $block['align'] : '';
+$custom_class = isset($block['className']) ? $block['className'] : '';
+
+$height = get_field('height');
 ?>
-<section class="top-banner">
+<section id="<?php echo $block_id; ?>" class="<?php echo $slug; ?> <?php echo $align_class; ?> <?php echo $custom_class; ?>">
 
 	<div class="top-banner__image <?php echo $height; ?>">
 		<?php
-		$image = get_sub_field('image');
+		$image = get_field('image');
 		if ($image ) : ?>
 			<img src="<?php echo esc_url($image ['url']); ?>"
 				 alt="<?php echo esc_attr($image ['alt']); ?>"/>

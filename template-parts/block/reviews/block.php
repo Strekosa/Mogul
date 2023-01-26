@@ -12,7 +12,7 @@
  * @var array $block
  */
 
-$title = get_sub_field('title');
+$title = get_field('title');
 ?>
 <section class="reviews">
 	<div class="reviews__main container-boxed ">

@@ -14,26 +14,27 @@ jQuery(document).ready(() => {
 		$('body').toggleClass('lock');
 	});
 
-	$('.reviews-slider').slick({
-		dots: false,
-		arrows: true,
-		autoplay: false,
-		autoplaySpeed: 2000,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 2,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-		],
+	$('.header-menu .menu-item-has-children .nav-desc').click(function (event) {
+
+		if ($(this).parent().hasClass('open')) {
+			$(this).parent().removeClass('open');
+		} else {
+			event.preventDefault();
+			$(this).parent().addClass('open');
+		}
+
+
 	});
+
+	// $('.sub-menu .sub-menu-item').each(function () {
+	// 	if (!$(this).hasClass('open')) {
+	// 		$(this).removeClass('hover')
+	// 	}
+	//
+	// });
+
+
+
 });
 
-$(".menu-item").attr("tabindex",0);
-
+$(".menu-item").attr("tabindex", 0);

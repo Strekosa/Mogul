@@ -13,8 +13,8 @@
  */
 
 
-$size = get_sub_field('size');
-$image = get_sub_field('image');
+$size = get_field('size');
+$image = get_field('image');
 ?>
 <section class="image-block">
 	<div class="container-boxed flex column align-center">

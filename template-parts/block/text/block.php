@@ -12,9 +12,9 @@
  * @var array $block
  */
 
-$width = get_sub_field('width');
-$title = get_sub_field('title');
-$text = get_sub_field('text');
+$width = get_field('width');
+$title = get_field('title');
+$text = get_field('text');
 ?>
 <section class="text container-boxed column align-center">
 	<div class="text__main <?php echo $width; ?>">

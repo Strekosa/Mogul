@@ -19,7 +19,7 @@
 }
 
 .menu {
-  li {
+  .main-menu-item {
     list-style: none;
 
     @include adaptiv-font(14, 10);
@@ -46,14 +46,77 @@
     &:hover,
     &:focus,
     &.active {
-      a::after {
+      > a::after {
         background-color: $text-color;
       }
     }
+
+    &:not(:last-child) {
+      @include adaptiv-margin-right(36, 10);
+    }
+
+    .nav-desc {
+      margin-left: 5px;
+    }
   }
 
-  li:not(:last-child) {
-    @include adaptiv-margin-right(36, 10);
+  .menu-item-has-children {
+    position: relative;
+
+    .sub-menu {
+      position: absolute;
+      background: $main-color;
+      display: none;
+      width: max-content;
+      min-width: 261px;
+      z-index: 2;
+    }
+
+    .sub-menu-item {
+      text-transform: uppercase;
+      background: lightgrey;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      transition: 0.2s ease-out;
+
+      a {
+        padding: 10px 5px;
+        display: block;
+      }
+
+      .nav-desc {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 1;
+      }
+
+      &:hover,
+      &:focus,
+      &.active {
+        > a {
+          padding-left: 10px;
+          background-color: gray;
+        }
+      }
+    }
+
+    &.open {
+      > .sub-menu {
+        display: block;
+      }
+    }
+
+    .menu-depth-1 {
+      margin-top: 5px;
+      border-top: 3px solid black;
+      left: 0;
+      top: 100%;
+    }
+
+    .menu-depth-2,
+    .menu-depth-3 {
+      position: initial;
+    }
   }
 }
 

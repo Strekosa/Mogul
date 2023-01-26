@@ -18,6 +18,11 @@
 @import "template-parts/block/form/style";
 @import "template-parts/block/top-banner/style";
 @import "template-parts/block/text/style";
+@import "template-parts/block/columns/style";
+@import "template-parts/block/slider/style";
+@import "template-parts/block/blog/style";
+@import "template-parts/block/carts/style";
+@import "template-parts/block/multistep/style";
 
 /**
  * Import npm dependencies
@@ -30,3 +35,6 @@
 // Import Slick
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";
+
+// Import Font Awesome
+@import "~font-awesome/scss/font-awesome";
